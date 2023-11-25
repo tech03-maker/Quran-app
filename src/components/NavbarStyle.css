@@ -1,3 +1,8 @@
 .navbar{
-    padding: 20rem;
+    padding: 1rem !important;
+}
+
+.navbar img{
+    color: white !important;
+    height: 1rem;
 }

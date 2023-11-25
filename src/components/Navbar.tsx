@@ -1,12 +1,14 @@
 import React from "react";
 import './NavbarStyle.css'
+import './images/quran.png'
 
-export const Navbar = () => {
+function Navbar () {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-dark">
         <div className="container">
           <a className="navbar-brand text-white" href="#">
+        <img src="../images/quran.png" alt="" />
             Qur'an App
           </a>
           <button
@@ -78,6 +80,6 @@ export const Navbar = () => {
       </nav>
     </div>
   );
-};
+}
 
 export default Navbar;
