@@ -1,5 +1,5 @@
 import './NavbarStyle.css'
-import './images/quran.png'
+import Quran from '../assets/quran.png'
 
 function Navbar () {
   return (
@@ -7,7 +7,7 @@ function Navbar () {
       <nav className="navbar navbar-expand-lg bg-dark">
         <div className="container">
           <a className="navbar-brand text-white" href="#">
-        <img src="../images/quran.png" alt="" />
+        <img src={Quran} alt="" />
             Qur'an App
           </a>
           <button
