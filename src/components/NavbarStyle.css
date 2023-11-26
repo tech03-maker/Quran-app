@@ -1,4 +1,11 @@
-.navbar img {
-    color: white !important;
-    height: 1rem;
+.logo {
+    color: white;
+    height: 3rem;
+    padding-right: 5px;
+}
+
+.navbar-toggler-icon{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
 }

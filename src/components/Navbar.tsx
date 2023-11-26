@@ -1,13 +1,14 @@
-import './NavbarStyle.css'
-import Quran from '../assets/quran.png'
+import "./NavbarStyle.css";
+import Quran from "../assets/koran.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-function Navbar () {
+function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-dark">
+      <nav className="navbar navbar-expand-lg bg-dark align-center">
         <div className="container">
           <a className="navbar-brand text-white" href="#">
-        <img src={Quran} alt="" />
+            <img className="logo" src={Quran} alt="" />
             Qur'an App
           </a>
           <button
@@ -19,12 +20,16 @@ function Navbar () {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"><FontAwesomeIcon icon="bars" /></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item ">
-                <a className="nav-link active text-white" aria-current="page" href="#">
+                <a
+                  className="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                >
                   Home
                 </a>
               </li>
@@ -61,7 +66,6 @@ function Navbar () {
                   </li>
                 </ul>
               </li>
-              
             </ul>
             <form className="d-flex" role="search">
               <input
