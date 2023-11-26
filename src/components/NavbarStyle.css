@@ -1,20 +1,51 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.above {
+  background-color: rgb(3, 3, 43);
+  text-align: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 15px;
+  /* align-items: baseline; */
+  display: inline;
+}
+
 .logo {
-    color: white;
-    height: 2.3rem;
-    padding-right: 5px;
+  color: white;
+  height: 2.3rem;
+  padding-right: 5px;
 }
 
-.navbar{
-    background-color: #5c0118;
-    justify-content: space-between;
+.navbar {
+  background-color: #5c0118;
+  justify-content: space-between;
 }
 
-.navbar-toggler-icon{
-    color: white;
-    font-size: 20px;
-    padding: 5px;
+.navbar-toggler-icon {
+  color: white;
+  font-size: 20px;
+  padding: 5px;
 }
 
 .navbar-nav {
-    font-weight: lighter;
+  font-weight: 500;
+}
+
+.donate {
+  background-color: white;
+  border: none;
+  padding: 7px;
+  color: #5c0118;
+  border-radius: 20px;
+}
+
+.navbar button:hover {
+  font-weight: bold;
+}
+
+a:hover {
+  font-weight: bold;
 }

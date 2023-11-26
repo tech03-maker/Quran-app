@@ -1,0 +1,15 @@
+select{
+    border: none;
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    outline: none;
+    width: 90%;
+    height: 30px;
+}
+
+label{
+    font-size: 15px;
+    width: 50%;
+    display: inline-block;
+}
