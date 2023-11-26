@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-dark align-center">
+      <nav className="navbar navbar-expand-lg align-center">
         <div className="container">
           <a className="navbar-brand text-white" href="#">
             <img className="logo" src={Quran} alt="" />
@@ -24,7 +24,10 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item ">
+            
+            </ul>
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0" role="search">
+            <li className="nav-item ">
                 <a
                   className="nav-link active text-white"
                   aria-current="page"
@@ -35,7 +38,27 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <a className="nav-link text-white" href="#">
-                  Link
+                  About
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link text-white" href="#">
+                  Qur'an
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link text-white" href="#">
+                  Hadith
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link text-white" href="#">
+                  Arabic Learning
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link text-white" href="#">
+                  Hadith
                 </a>
               </li>
               <li className="nav-item dropdown">
@@ -53,6 +76,7 @@ function Navbar() {
                     <a className="dropdown-item" href="#">
                       Action
                     </a>
+                    <li><hr className="dropdown-divider bg-white" /></li>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
@@ -67,17 +91,6 @@ function Navbar() {
                 </ul>
               </li>
             </ul>
-            <form className="d-flex" role="search">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button className="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
           </div>
         </div>
       </nav>
