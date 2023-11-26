@@ -1,4 +1,3 @@
-import React from "react";
 import './NavbarStyle.css'
 import './images/quran.png'
 
