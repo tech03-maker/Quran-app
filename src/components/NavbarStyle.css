@@ -1,4 +1,5 @@
 * {
+    /* background-color: #5c0118; */
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
@@ -10,7 +11,7 @@
   font-weight: 300;
   font-size: 15px;
   /* align-items: baseline; */
-  display: inline;
+  /* display: inline; */
 }
 
 .logo {
