@@ -4,12 +4,12 @@ select{
     font-size: 13px;
     cursor: pointer;
     outline: none;
-    width: 90%;
+    width: 60%;
     height: 30px;
 }
 
 label{
     font-size: 15px;
-    width: 50%;
+    width: 30%;
     display: inline-block;
 }

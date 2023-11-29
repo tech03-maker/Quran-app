@@ -10,7 +10,7 @@ const LanguageSelector: React.FC = () => {
   };
 
   return (
-    <div className='d-flex'>
+    <div className='container'>
       <label htmlFor="language">Select Language:</label>
       <select
         id="language"

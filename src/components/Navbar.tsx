@@ -7,13 +7,13 @@ function Navbar() {
   return (
     <div>
       <div className="above">
-        <div className="container text-white p-2 justify-center">
+        <div className="container text-white p-3 justify-center">
           <div className="row">
-            <span className="col-lg-6 col-md-6 col-sm-12">
+            {/* <span className="col-lg-6 col-md-6 col-sm-12">
               <FontAwesomeIcon icon="phone" />
               +234 000 000 0000
-            </span>
-            <span className="col-lg-6 col-md-6 col-sm-12">
+            </span> */}
+            <span className="col-lg-12 col-md-12 col-sm-12">
               <LanguageSelector />
             </span>
           </div>
@@ -83,12 +83,12 @@ function Navbar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Extras
                 </a>
                 <ul className="dropdown-menu">
                   <li>
                     <a className="dropdown-item" href="#">
-                      Action
+                      Prayer Times
                     </a>
                     <li>
                       <hr className="dropdown-divider bg-white" />
@@ -96,12 +96,15 @@ function Navbar() {
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      Another action
+                      Adhkar
                     </a>
                   </li>
                   <li>
+                      <hr className="dropdown-divider bg-white" />
+                    </li>
+                  <li>
                     <a className="dropdown-item" href="#">
-                      Something else here
+                      Qiblah
                     </a>
                   </li>
                 </ul>
