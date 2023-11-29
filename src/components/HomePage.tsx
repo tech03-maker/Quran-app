@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomePage.css";
-import myImage from '../assets/png-transparent-al-quran-removebg-preview.png'
+import myImage from "../assets/png-transparent-al-quran-removebg-preview.png";
 
 const HomePage: React.FC = () => {
   return (
