@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomePage.css";
+import myImage from '../assets/png-transparent-al-quran-removebg-preview.png'
 
 const HomePage: React.FC = () => {
   return (
@@ -28,6 +29,10 @@ const HomePage: React.FC = () => {
                 </a>
               </div>
             </div>
+          </div>
+
+          <div className="col-12 col-sm-12 col-md-6 col-lg-6">
+            <img src={myImage} alt="" />
           </div>
         </div>
       </div>
