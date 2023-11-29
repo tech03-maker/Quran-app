@@ -20,12 +20,12 @@ const HomePage: React.FC = () => {
             <div className="btns d-flex w-75 row">
               <div className="col">
                 <a href="#">
-                  <button>Read Qur'an</button>
+                  <button className="w-100">Read Qur'an</button>
                 </a>
               </div>
               <div className="col">
                 <a href="#">
-                  <button className="btn-2 bg-transparent">Explore</button>
+                  <button className="btn-2 bg-transparent w-100">Explore</button>
                 </a>
               </div>
             </div>
