@@ -12,20 +12,27 @@ const HomePage: React.FC = () => {
               Live a Daily Routine With The Qur'an. Add On Your Daily Routine
             </h3>
             <p className="mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, nisi
-              error saepe veritatis itaque nobis aspernatur. Ab reiciendis
-              repellendus quae. Eius in consequatur aut! Sunt enim laboriosam
-              est nam soluta?
+              <blockquote>
+                "Indeed, your Lord is Allah,who created the heavens and te earth
+                in six days and then established Himself above the Throne,
+                arranging the matter(of His creation). There is no intercessor
+                except after His permission.That is Allah, your Lord, so worship
+                Him, Then will you not remember?(Qur'an 10 : Verse 3)"
+              </blockquote>
             </p>
             <div className="btns d-flex w-75 row">
               <div className="col">
                 <a href="#">
-                  <button type="button" className="w-100">Read Qur'an</button>
+                  <button type="button" className="w-100">
+                    Read Qur'an
+                  </button>
                 </a>
               </div>
               <div className="col">
                 <a href="#">
-                  <button type="button" className="btn-2 bg-transparent w-100">Explore</button>
+                  <button type="button" className="btn-2 bg-transparent w-100">
+                    Explore
+                  </button>
                 </a>
               </div>
             </div>
