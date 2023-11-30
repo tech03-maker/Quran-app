@@ -8,7 +8,7 @@ const Cards: React.FC = () => {
         <div className="col-12 col-sm-12 col-md-6 col-lg-6">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-              <div className="card col-12 col-sm-12 col-md-">
+              <div className="card col-12 col-sm-12 mb-3">
                 <img src={QuranLantern} className="card-image-top" alt="" />
                 <div className="card-body">
                   <h5 className="card-title">Card title</h5>
@@ -39,7 +39,7 @@ const Cards: React.FC = () => {
             </div>
           </div>
           <div className="row mt-4">
-            <div className="col-12 col-sm-12 col-md-6 col-lg-6">
+            <div className="col-12 col-sm-12 col-md-6 col-lg-6 mb-3">
               <div className="card col-12 col-sm-12 col-md-">
                 <img src={QuranLantern} className="card-image-top" alt="" />
                 <div className="card-body">
