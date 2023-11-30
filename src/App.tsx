@@ -6,6 +6,7 @@ import HomePage from "./components/HomePage";
 import { faBars, faPhone, faLanguage, faArrowCircleDown } from "@fortawesome/free-solid-svg-icons";
 library.add(faBars, faPhone, faLanguage, faArrowCircleDown);
 import SectionTwo from "./components/SectionTwo"
+import Cards from "./components/Cards"
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <HomePage />
 
       <SectionTwo />
+
+      <Cards />
     </div>
   );
 }

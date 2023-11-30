@@ -1,5 +1,5 @@
 import "./NavbarStyle.css";
-import Quran from "../assets/koran.png";
+import Quran from "../assets/IMG-20231130-WA0041.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import LanguageSelector from "./LanguageSelector";
 
@@ -23,7 +23,7 @@ function Navbar() {
         <div className="container">
           <a className="navbar-brand text-white" href="#">
             <img className="logo" src={Quran} alt="" />
-            Qur'an App
+            Muslim Handbook
           </a>
           <button
             className="navbar-toggler"
