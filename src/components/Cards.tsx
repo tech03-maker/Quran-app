@@ -33,7 +33,7 @@ const Cards: React.FC = () => {
                   <h5 className="card-title">Hadith</h5>
                   <p className="card-text">
                     "Kindness is a mark of faith, and whoever is not kind has no
-                    faith" is reported in Sahih Bukhari & Sahih Muslim,
+                    faith" is reported in Sahih Bukhari & Sahih Muslim."
                   </p>
                   <a href="#">
                     <button type="button">Start Your Journey</button>
