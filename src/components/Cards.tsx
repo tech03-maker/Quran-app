@@ -33,7 +33,7 @@ const Cards: React.FC = () => {
                   <h5 className="card-title">Hadith</h5>
                   <p className="card-text">
                     "Kindness is a mark of faith, and whoever is not kind has no
-                    faith" is reported in Sahih Muslim & Sahih Muslim,
+                    faith" is reported in Sahih Bukhari & Sahih Muslim,
                   </p>
                   <a href="#">
                     <button type="button">Start Your Journey</button>
@@ -43,7 +43,7 @@ const Cards: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className=" mt-4 HadithRemark col-12 col-sm-12 col-md-6 col-lg-6">
+        <div className="mt-4 HadithRemark col-12 col-sm-12 col-md-6 col-lg-6">
           <img src={HadithRemark} alt="" />
         </div>
       </div>
