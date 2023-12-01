@@ -14,45 +14,45 @@
 }
 
 .logo {
-    color: white;
-    height: 2.3rem;
-    padding-right: 5px;
-    border-radius: 100px;
+  color: white;
+  height: 2.3rem;
+  padding-right: 5px;
+  border-radius: 100px;
 }
 
 .navbar {
-    background-color: #5c0118;
-    justify-content: space-between;
+  background-color: #5c0118;
+  justify-content: space-between;
 }
 
 .navbar-toggler-icon {
-    color: white;
-    font-size: 20px;
-    padding: 5px;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
 }
 
-.navbar-brand{
-    font-weight: bold;
+.navbar-brand {
+  font-weight: bold;
 }
 
 .navbar-nav {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .donate {
-    background-color: white;
-    border: none;
-    padding: 7px;
-    color: #5c0118;
-    border-radius: 10px;
+  background-color: white;
+  border: none;
+  padding: 7px;
+  color: #5c0118;
+  border-radius: 10px;
 }
 
 .navbar button:hover {
-    font-weight: bold;
-    transition: 0.3s ease-out;
+  font-weight: bold;
+  transition: 0.3s ease-out;
 }
 
 a:hover {
-    font-weight: bold;
-    transition: 0.2s ease-in;
+  font-weight: bold;
+  transition: 0.2s ease-in;
 }

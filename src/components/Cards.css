@@ -1,22 +1,22 @@
-.source{
-    font-weight: bold;
+.source {
+  font-weight: bold;
 }
 
-.card-body button{
-    background-color: rgb(3, 3, 51);
-    color: white;
-    border: none;
-    font-size: 15px;
-    padding: 0.5rem;
-    border-radius: 5px;
-    transition: all 0.3s;
+.card-body button {
+  background-color: rgb(3, 3, 51);
+  color: white;
+  border: none;
+  font-size: 15px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  transition: all 0.3s;
 }
 
-.card-body button:hover{
-    box-shadow: 0 4px 6px rgba(37, 31, 31, 0.267);
+.card-body button:hover {
+  box-shadow: 0 4px 6px rgba(37, 31, 31, 0.267);
 }
 
-.HadithRemark img{
-    width: 100%;
-    height: 80%;
+.HadithRemark img {
+  width: 100%;
+  height: 80%;
 }

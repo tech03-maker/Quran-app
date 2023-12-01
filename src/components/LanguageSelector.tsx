@@ -1,16 +1,16 @@
 // LanguageSelector.tsx
-import React, { useState, ChangeEvent } from 'react';
-import './LanguageSelector.css'
+import React, { useState, ChangeEvent } from "react";
+import "./LanguageSelector.css";
 
 const LanguageSelector: React.FC = () => {
-  const [selectedLanguage, setSelectedLanguage] = useState('en');
+  const [selectedLanguage, setSelectedLanguage] = useState("en");
 
   const handleLanguageChange = (event: ChangeEvent<HTMLSelectElement>) => {
     setSelectedLanguage(event.target.value);
   };
 
   return (
-    <div className='container'>
+    <div className="container">
       <label htmlFor="language">Select Language:</label>
       <select
         id="language"

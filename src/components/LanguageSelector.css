@@ -1,15 +1,15 @@
-select{
-    border: none;
-    border-radius: 20px;
-    font-size: 13px;
-    cursor: pointer;
-    outline: none;
-    width: 60%;
-    height: 30px;
+select {
+  border: none;
+  border-radius: 20px;
+  font-size: 13px;
+  cursor: pointer;
+  outline: none;
+  width: 60%;
+  height: 30px;
 }
 
-label{
-    font-size: 15px;
-    width: 30%;
-    display: inline-block;
+label {
+  font-size: 15px;
+  width: 30%;
+  display: inline-block;
 }

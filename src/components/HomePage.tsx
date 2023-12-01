@@ -11,7 +11,8 @@ const HomePage: React.FC = () => {
         <div className="row mt-5">
           <div className=" hero_1 col-12 col-sm-12 col-md-6 col-lg-6">
             <h3>
-              Live a Daily Routine With The The Muslim's Handbook. Add On Your Daily Routine
+              Live a Daily Routine With The The Muslim's Handbook. Add On Your
+              Daily Routine
             </h3>
             <p className="mt-3">
               <blockquote>
@@ -27,7 +28,10 @@ const HomePage: React.FC = () => {
                 <a href="#">
                   <button type="button" className="w-100">
                     Bismillahi-Rahmaani-Raheem
-                    <FontAwesomeIcon className="arrow_icon" icon={faArrowCircleRight} />
+                    <FontAwesomeIcon
+                      className="arrow_icon"
+                      icon={faArrowCircleRight}
+                    />
                   </button>
                 </a>
               </div>

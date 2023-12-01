@@ -1,12 +1,18 @@
 import Navbar from "./components/Navbar";
 import "./components/NavbarStyle.css";
-import "./components/HomePage.css"
+import "./components/HomePage.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import HomePage from "./components/HomePage";
-import { faBars, faPhone, faLanguage, faArrowCircleDown, faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBars,
+  faPhone,
+  faLanguage,
+  faArrowCircleDown,
+  faArrowCircleRight,
+} from "@fortawesome/free-solid-svg-icons";
 library.add(faBars, faPhone, faLanguage, faArrowCircleDown, faArrowCircleRight);
-import SectionTwo from "./components/SectionTwo"
-import Cards from "./components/Cards"
+import SectionTwo from "./components/SectionTwo";
+import Cards from "./components/Cards";
 
 function App() {
   return (

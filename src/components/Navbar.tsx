@@ -100,8 +100,8 @@ function Navbar() {
                     </a>
                   </li>
                   <li>
-                      <hr className="dropdown-divider bg-white" />
-                    </li>
+                    <hr className="dropdown-divider bg-white" />
+                  </li>
                   <li>
                     <a className="dropdown-item" href="#">
                       Qiblah
