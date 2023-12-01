@@ -1,6 +1,8 @@
 import React from "react";
 import "./HomePage.css";
 import myImage from "../assets/png-transparent-al-quran-removebg-preview.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
 
 const HomePage: React.FC = () => {
   return (
@@ -24,17 +26,18 @@ const HomePage: React.FC = () => {
               <div className="col">
                 <a href="#">
                   <button type="button" className="w-100">
-                    Read Qur'an
+                    Bismillahi-Rahmaani-Raheem
+                    <FontAwesomeIcon className="arrow_icon" icon={faArrowCircleRight} />
                   </button>
                 </a>
               </div>
-              <div className="col">
+              {/* <div className="col">
                 <a href="#">
                   <button type="button" className="btn-2 bg-transparent w-100">
                     Explore
                   </button>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
 

@@ -32,3 +32,8 @@ blockquote {
   font-style: italic;
   font-size: 15px;
 }
+
+.arrow_icon{
+  color: white;
+  padding-left: 5px;
+}
