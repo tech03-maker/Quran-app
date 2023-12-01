@@ -43,7 +43,7 @@ const Cards: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="HadithRemark col-12 col-sm-12 col-md-6 col-lg-6">
+        <div className=" mt-4 HadithRemark col-12 col-sm-12 col-md-6 col-lg-6">
           <img src={HadithRemark} alt="" />
         </div>
       </div>
