@@ -15,3 +15,8 @@
 .card-body button:hover{
     box-shadow: 0 4px 6px rgba(37, 31, 31, 0.267);
 }
+
+.HadithRemark img{
+    width: 100%;
+    height: 80%;
+}

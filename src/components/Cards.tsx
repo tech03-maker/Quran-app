@@ -1,6 +1,7 @@
 import React from "react";
 import QuranLantern from "../assets/book-is-open-lamp-lit-lantern_1340-27882.avif";
 import Hadith from "../assets/sunset-1080x675.jpg";
+import HadithRemark from "../assets/kisspng-kaaba-al-masjid-an-nabawi-great-mosque-of-mecca-qu-bdexgroup-5b6fb972059353.3834564315340486260229.png";
 import "./Cards.css";
 
 const Cards: React.FC = () => {
@@ -41,6 +42,9 @@ const Cards: React.FC = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="HadithRemark col-12 col-sm-12 col-md-6 col-lg-6">
+          <img src={HadithRemark} alt="" />
         </div>
       </div>
     </div>
