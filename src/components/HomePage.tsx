@@ -23,6 +23,7 @@ const HomePage: React.FC = () => {
                 Him, Then will you not remember?(Qur'an 10 : Verse 3)"
               </blockquote>
             </p>
+              <p>Let The Journey Begin...</p>
             <div className="btns d-flex w-75 row">
               <div className="col">
                 <a href="#">
