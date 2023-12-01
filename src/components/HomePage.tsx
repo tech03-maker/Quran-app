@@ -41,7 +41,7 @@ const HomePage: React.FC = () => {
             </div>
           </div>
 
-          <div className="col-12 col-sm-12 col-md-6 col-lg-6">
+          <div className="mt-2 col-12 col-sm-12 col-md-6 col-lg-6">
             <img className="hero-img" src={myImage} alt="" />
           </div>
         </div>
