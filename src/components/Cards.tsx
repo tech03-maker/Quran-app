@@ -54,7 +54,7 @@ const Cards: React.FC = () => {
       <div className="container">
         <h3 className="source mt-5">Extras</h3>
         <div className="row">
-          <div className="col-4 col-12 col-sm-12 col-md-4">
+          <div className="col-4 col-12 col-sm-12 col-md-4 mb-3">
             <div className="card">
               <img src={Seerah} className="card-img-top" alt="" />
               <div className="card-body">
@@ -69,7 +69,7 @@ const Cards: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="col-4 col-12 col-sm-12 col-md-4">
+          <div className="col-4 col-12 col-sm-12 col-md-4 mb-3">
             <div className="card">
               <img src={Hisnul} className="card-img-top" alt="" />
               <div className="card-body">
