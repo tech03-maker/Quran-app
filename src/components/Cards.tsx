@@ -16,8 +16,8 @@ const Cards: React.FC = () => {
                 <div className="card-body">
                   <h5 className="card-title">The Quran</h5>
                   <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    "In the Name of Allah, the Most Gracious, the Most Merciful
+                    - A Reminder of Divine Guidance and Compassion."
                   </p>
                   <a href="#">
                     <button type="button">Start Your Journey</button>
@@ -31,8 +31,8 @@ const Cards: React.FC = () => {
                 <div className="card-body">
                   <h5 className="card-title">Hadith</h5>
                   <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    "Kindness is a mark of faith, and whoever is not kind has no
+                    faith" is reported in Sahih Muslim & Sahih Muslim,
                   </p>
                   <a href="#">
                     <button type="button">Start Your Journey</button>
