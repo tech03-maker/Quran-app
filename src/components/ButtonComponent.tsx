@@ -10,7 +10,7 @@ interface ButtonProps {
 
 const ButtonComponent: React.FC<ButtonProps> = ({ onClick }) => {
   return (
-    <a href="#">
+    <div>
       <button
         type="submit"
         style={{
@@ -71,12 +71,12 @@ const ButtonComponent: React.FC<ButtonProps> = ({ onClick }) => {
                   placeholder="Email"
                   required
                 />
+                <div className="modal-footer">
+                  <button type="submit" className="modal_button w-100">
+                    Submit
+                  </button>
+                </div>
               </form>
-            </div>
-            <div className="modal-footer">
-              <button type="submit" className="modal_button">
-                Submit
-              </button>
             </div>
           </div>
         </div>
@@ -86,7 +86,7 @@ const ButtonComponent: React.FC<ButtonProps> = ({ onClick }) => {
         const myModal = new bootstrap.Modal(document.getElementById('modalId'),
         options)
       </script>
-    </a>
+    </div>
   );
 };
 
