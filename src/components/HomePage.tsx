@@ -3,16 +3,22 @@ import "./HomePage.css";
 import myImage from "../assets/png-transparent-al-quran-removebg-preview.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
+import ButtonComponent from "./ButtonComponent";
+// import "./Button.css"
 
 const HomePage: React.FC = () => {
+  const handleButtonClick = () => {
+    // Handle button click logic here
+    console.log("Button clicked!");
+  };
   return (
     <div className="hero">
       <div className="container">
         <div className="row mt-5">
           <div className=" hero_1 col-12 col-sm-12 col-md-6 col-lg-6">
             <h3>
-              Live a Daily Routine With The Muslim's Handbook. Add On Your
-              Daily Routine
+              Live a Daily Routine With The Muslim's Handbook. Add On Your Daily
+              Routine
             </h3>
             <p className="mt-3">
               <blockquote>
@@ -23,7 +29,7 @@ const HomePage: React.FC = () => {
                 Him, Then will you not remember?(Qur'an 10 : Verse 3)"
               </blockquote>
             </p>
-              <p>Let The Journey Begin...</p>
+            <p>Let The Journey Begin...</p>
             <div className="btns d-flex w-75 row">
               <div className="col">
                 <a href="#">
@@ -50,6 +56,8 @@ const HomePage: React.FC = () => {
             <img className="hero-img" src={myImage} alt="" />
           </div>
         </div>
+
+        <ButtonComponent onClick={handleButtonClick} />
       </div>
     </div>
   );

@@ -1,0 +1,17 @@
+.email_btn {
+  padding: 20px;
+  background-color: #5c0118;
+  border-radius: 70% !important;
+  border: none;
+  color: white;
+  z-index: 99;
+  transition: all 0.3s;
+}
+
+.email_btn:hover {
+  box-shadow: 0 4px 6px rgba(48, 4, 4, 0.562);
+}
+
+button .i {
+  font-size: 25px;
+}
