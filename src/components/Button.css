@@ -15,3 +15,27 @@
 button .i {
   font-size: 25px;
 }
+
+.modal-header{
+    color: #5c0118;
+}
+
+form input{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(6, 6, 49);
+}
+
+.modal-footer button{
+    background-color: rgb(3, 3, 51);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.modal-footer button:hover{
+    box-shadow: 0 4px 6px rgba(8, 4, 48, 0.301);
+}
