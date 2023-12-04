@@ -44,7 +44,7 @@ const ButtonComponent: React.FC<ButtonProps> = ({ onClick }) => {
           <div className="modal-content">
             <div className="modal-header">
               <h5 className="modal-title" id="modalTitleId">
-                Send Us an Email
+                Send Us a Message
               </h5>
               <button
                 type="button"
@@ -68,7 +68,7 @@ const ButtonComponent: React.FC<ButtonProps> = ({ onClick }) => {
                   type="email"
                   name="Name"
                   id=""
-                  placeholder="Email"
+                  placeholder="Message"
                   required
                 />
                 <div className="modal-footer">
