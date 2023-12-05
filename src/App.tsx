@@ -5,7 +5,7 @@ import "./components/ButtonComponent";
 import "./components/Button.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import HomePage from "./components/HomePage";
-import "./components/firebase"
+import "./components/firebase";
 import {
   faBars,
   faPhone,
@@ -24,6 +24,7 @@ library.add(
 );
 import SectionTwo from "./components/SectionTwo";
 import Cards from "./components/Cards";
+import QuranAbout from "./components/quranAbout";
 
 function App() {
   return (
@@ -35,6 +36,8 @@ function App() {
       <SectionTwo />
 
       <Cards />
+
+      <QuranAbout />
     </div>
   );
 }
