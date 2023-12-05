@@ -1,14 +1,36 @@
-// ButtonComponent.tsx
-import React from "react";
+import React, { useState } from "react";
 import "./Button.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { collection, addDoc } from "firebase/firestore";
+import { firestore } from "./firebase"; // Adjust the path to your actual file location
 
 interface ButtonProps {
   onClick: () => void;
 }
 
 const ButtonComponent: React.FC<ButtonProps> = ({ onClick }) => {
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleFormSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    console.log("Form submitted!");
+
+    try {
+      const messagesCollection = collection(firestore, "messagesCollection");
+      await addDoc(messagesCollection, {
+        name,
+        message,
+      });
+
+      setName("");
+      setMessage("");
+    } catch (error) {
+      console.error("Error saving to Firebase:", error);
+    }
+  };
+
   return (
     <div>
       <button
@@ -54,21 +76,25 @@ const ButtonComponent: React.FC<ButtonProps> = ({ onClick }) => {
               ></button>
             </div>
             <div className="modal-body">
-              <form action="">
+              <form onSubmit={handleFormSubmit}>
                 <input
                   className="w-100 mb-3"
                   type="text"
                   name="Name"
-                  id=""
+                  id="name-input"
                   placeholder="Name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                   required
                 />
                 <input
                   className="w-100"
-                  type="email"
-                  name="Name"
-                  id=""
+                  type="text"
+                  name="Message"
+                  id="message-input"
                   placeholder="Message"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                   required
                 />
                 <div className="modal-footer">
