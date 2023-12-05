@@ -12,12 +12,13 @@ interface ButtonProps {
 const ButtonComponent: React.FC<ButtonProps> = ({ onClick }) => {
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const handleFormSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form submitted!");
 
     try {
+      setLoading(true);
       const messagesCollection = collection(firestore, "messagesCollection");
       await addDoc(messagesCollection, {
         name,
@@ -27,6 +28,7 @@ const ButtonComponent: React.FC<ButtonProps> = ({ onClick }) => {
       setName("");
       setMessage("");
     } catch (error) {
+      setLoading(false);
       console.error("Error saving to Firebase:", error);
     }
   };
@@ -35,11 +37,7 @@ const ButtonComponent: React.FC<ButtonProps> = ({ onClick }) => {
     <div>
       <button
         type="submit"
-        style={{
-          position: "fixed",
-          bottom: "13px",
-          right: "25px",
-        }}
+        style={{ opacity: loading ? 0.5 : 1 }}
         title="Submit"
         onClick={onClick}
         className="email_btn btn-primary btn-lg"
