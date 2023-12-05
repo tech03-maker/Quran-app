@@ -24,7 +24,7 @@ library.add(
 );
 import SectionTwo from "./components/SectionTwo";
 import Cards from "./components/Cards";
-import QuranAbout from "./components/quranAbout";
+import QuranAbout from "./components/QuranAbout";
 
 function App() {
   return (
