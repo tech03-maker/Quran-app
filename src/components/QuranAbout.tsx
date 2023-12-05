@@ -1,4 +1,3 @@
-import React from "react";
 import QuranImg from "../assets/quranmuslim-holy-book-placed-steampunk_948265-5615.avif";
 import HandyQuran from "../assets/quranmuslim-holy-book-placed-steampunk_948265-5767.avif";
 import "bootstrap/dist/css/bootstrap.min.css";
