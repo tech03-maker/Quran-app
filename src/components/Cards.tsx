@@ -6,6 +6,7 @@ import "./Cards.css";
 import Seerah from "../assets/stories-from-the-seerah-صلى-الله-عليه-وسلم-J6o3O-BKQaY-yEY7w3z9hgA.300x300.jpg";
 import Hisnul from "../assets/hisnul.jpg";
 import Arabic from "../assets/arabic-1024x1024.jpg";
+import { Link } from "react-router-dom";
 
 const Cards: React.FC = () => {
   return (
@@ -23,9 +24,9 @@ const Cards: React.FC = () => {
                     "In the Name of Allah, the Most Gracious, the Most Merciful
                     - A Reminder of Divine Guidance and Compassion."
                   </p>
-                  <a href="#">
+                  <Link to="/quran">
                     <button type="button">Start Your Journey</button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
