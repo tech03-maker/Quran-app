@@ -44,7 +44,7 @@ function App() {
  
         <Routes>
           <Route path="/quran" element={<QuranPage />} />
-          <Route path="/" element={<Cards />} />
+          {/* <Route path="/" element={<Cards />} /> */}
         </Routes>
    
     </div>
