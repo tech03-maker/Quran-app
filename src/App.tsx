@@ -26,7 +26,7 @@ import SectionTwo from "./components/SectionTwo";
 import Cards from "./components/Cards";
 import QuranAbout from "./components/QuranAbout";
 import "./components/QuranAbout.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {  Routes, Route } from "react-router-dom";
 import QuranPage from "./components/QuranPage";
 
 function App() {
@@ -41,12 +41,12 @@ function App() {
       <Cards />
 
       <QuranAbout />
-      <BrowserRouter>
+ 
         <Routes>
           <Route path="/quran" element={<QuranPage />} />
           <Route path="/" element={<Cards />} />
         </Routes>
-      </BrowserRouter>
+   
     </div>
   );
 }
