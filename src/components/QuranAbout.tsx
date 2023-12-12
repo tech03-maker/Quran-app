@@ -2,7 +2,7 @@ import QuranImg from "../assets/quranmuslim-holy-book-placed-steampunk_948265-56
 import HandyQuran from "../assets/quranmuslim-holy-book-placed-steampunk_948265-5767.avif";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function YourComponent() {
+function QuranAbout() {
   return (
     <div className="container mt-5">
       <div className="row">
@@ -43,4 +43,4 @@ function YourComponent() {
   );
 }
 
-export default YourComponent;
+export default QuranAbout;

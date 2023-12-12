@@ -21,7 +21,7 @@ function Navbar() {
       </div>
       <nav className="navbar navbar-expand-lg align-center">
         <div className="container">
-          <a className="navbar-brand text-white" href="#">
+          <a className="navbar-brand text-white flex" href="#">
             <img className="logo" src={Quran} alt="" />
             Muslim Handbook
           </a>

@@ -1,7 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 * {
   font-family: "Poppins", sans-serif;
 }
 
+body{
+  width:100%;
+}
 .navbar {
-  padding: 4rem;
+  padding: 1rem;
 }

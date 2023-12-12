@@ -1,10 +1,6 @@
-import Navbar from "./components/Navbar";
-import "./components/NavbarStyle.css";
-import "./components/HomePage.css";
 import "./components/ButtonComponent";
-import "./components/Button.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import HomePage from "./components/HomePage";
+import Navbar from "./components/Navbar";
 import "./components/firebase";
 import {
   faBars,
@@ -22,31 +18,21 @@ library.add(
   faArrowCircleRight,
   faEnvelope
 );
-import SectionTwo from "./components/SectionTwo";
-import Cards from "./components/Cards";
-import QuranAbout from "./components/QuranAbout";
-import "./components/QuranAbout.css";
-import {  Routes, Route } from "react-router-dom";
+
+import { Routes, Route } from "react-router-dom";
 import QuranPage from "./components/QuranPage";
+import { HomePage } from "./components/HomePage";
 
 function App() {
   return (
-    <div>
+    <div >
       <Navbar />
 
-      <HomePage />
-
-      <SectionTwo />
-
-      <Cards />
-
-      <QuranAbout />
- 
-        <Routes>
-          <Route path="/quran" element={<QuranPage />} />
-          {/* <Route path="/" element={<Cards />} /> */}
-        </Routes>
-   
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/quran" element={<QuranPage />} />
+        {/* <Route path="/" element={<Cards />} /> */}
+      </Routes>
     </div>
   );
 }
