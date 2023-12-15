@@ -5,18 +5,22 @@ import "../index.css";
 
 const QuranPage: React.FC = () => {
   const [quranData, setQuranData] = useState<any[]>([]);
-
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState();
   const YOUR_QURAN_API_ENDPOINT =
     "http://api.alquran.cloud/v1/quran/quran-uthmani";
 
   useEffect(() => {
     const fetchQuranData = async () => {
       try {
+        setLoading(true);
         const response = await fetch(YOUR_QURAN_API_ENDPOINT);
         const data = await response.json();
         console.log(data);
         setQuranData(data.data?.surahs);
+        setLoading(false);
       } catch (error) {
+        setLoading(false);
         console.error("Error fetching Quran data:", error);
       }
     };
@@ -32,6 +36,7 @@ const QuranPage: React.FC = () => {
       <h2>Quran Page</h2>
       {/* Display Quran data as needed */}
       <div className="flex gap-4 flex-wrap w-full">
+        {loading && <div>Loading</div>}
         {quranData.map((surah: any) => (
           <div key={surah.number} className="w-[250px] bg-[#fff]">
             <button className="flex w-[250px] gap-3 justify-between rounded-md p-2 border border-gray-800 ">
