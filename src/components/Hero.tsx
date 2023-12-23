@@ -3,14 +3,14 @@ import "./Hero.css";
 import myImage from "../assets/png-transparent-al-quran-removebg-preview.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
-import ButtonComponent from "./ButtonComponent";
+// import ButtonComponent from "./ButtonComponent";
 // import "./Button.css"
 
 const Hero: React.FC = () => {
-  const handleButtonClick = () => {
-    // Handle button click logic here
-    console.log("Button clicked!");
-  };
+  // const handleButtonClick = () => {
+  //   // Handle button click logic here
+  //   console.log("Button clicked!");
+  // };
   return (
     <div className="hero">
       <div className="container animate__animated animate__fadeInUp">
@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
 
-        <ButtonComponent onClick={handleButtonClick} />
+        {/* <ButtonComponent onClick={handleButtonClick} /> */}
       </div>
     </div>
   );
