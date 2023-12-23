@@ -8,7 +8,7 @@ const QuranPage: React.FC = () => {
   const [quranData, setQuranData] = useState<any[]>([]);
   const [loading, setLoading] = useState(false);
   const YOUR_QURAN_API_ENDPOINT =
-    "http://api.alquran.cloud/v1/quran/quran-uthmani";
+    "https://api.alquran.cloud/v1/quran/quran-uthmani";
 
   useEffect(() => {
     const fetchQuranData = async () => {
@@ -29,7 +29,10 @@ const QuranPage: React.FC = () => {
   }, []);
 
   return (
-    <div className="container  mt-5 m-auto animate__animated animate__fadeInUp" style={{ marginLeft: "16px" }}>
+    <div
+      className="container  mt-5 m-auto animate__animated animate__fadeInUp"
+      style={{ marginLeft: "16px" }}
+    >
       <h2 className="fw-bold">Quran Page</h2>
       {/* Display Quran data as needed */}
       <div className="flex gap-4 flex-wrap w-full">
