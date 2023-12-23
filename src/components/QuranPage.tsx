@@ -2,6 +2,7 @@
 // QuranPage.tsx
 import React, { useState, useEffect } from "react";
 import "../index.css";
+import { Link } from "react-router-dom";
 
 const QuranPage: React.FC = () => {
   const [quranData, setQuranData] = useState<any[]>([]);
@@ -25,16 +26,17 @@ const QuranPage: React.FC = () => {
   }, []);
 
   return (
-    <div
-      className="container justify-center h-screen items-center mt-5"
-      style={{ marginLeft: "16px" }}
-    >
-      <h2>Quran Page</h2>
+    <div className="container  mt-5 m-auto" style={{ marginLeft: "16px" }}>
+      <h2 className="fw-bold">Quran Page</h2>
       {/* Display Quran data as needed */}
       <div className="flex gap-4 flex-wrap w-full">
         {quranData.map((surah: any) => (
-          <div key={surah.number} className="w-[250px] bg-[#fff]">
-            <button className="flex w-[250px] gap-3 justify-between rounded-md p-2 border border-gray-800 ">
+          <div key={surah.number} className="w-[350px] bg-[#fff ]">
+            {/* Use Link instead of a button for navigation */}
+            <Link
+              to={`/surah/${surah.number}`}
+              className="flex w-[350px] gap-3 justify-between rounded-md p-2 border border-gray-800"
+            >
               <div className="flex gap-3">
                 <div className="w-8 bg-gray-100 flex justify-center items-center rounded-lg  h-8">
                   {surah.number}
@@ -45,7 +47,7 @@ const QuranPage: React.FC = () => {
                   <p>Verse {surah.ayahs.length}</p>
                 </div>
               </div>
-            </button>
+            </Link>
           </div>
         ))}
       </div>
