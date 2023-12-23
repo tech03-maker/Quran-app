@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Cards: React.FC = () => {
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 animate__animated animate__fadeInUp">
       <h3 className="source mt-5">The Primary Source of The Shari'ah</h3>
       <div className="row mt-4">
         <div className="col-12 col-sm-12 col-md-6 col-lg-6">

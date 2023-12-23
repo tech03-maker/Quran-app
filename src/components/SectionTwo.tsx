@@ -6,7 +6,7 @@ import "./SectionTwo.css";
 
 const SectionTwo: React.FC = () => {
   return (
-    <div className="container">
+    <div className="container animate__animated animate__fadeInUp">
       <section className="mt-3">
         <div className="row">
           <div className="section_1 col-12 col-sm-12 col-md-6 col-lg-6 mt-5">

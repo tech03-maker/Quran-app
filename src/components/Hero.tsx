@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
   };
   return (
     <div className="hero">
-      <div className="container">
+      <div className="container animate__animated animate__fadeInUp">
         <div className="row mt-5">
           <div className=" hero_1 col-12 col-sm-12 col-md-6 col-lg-6">
             <h3>

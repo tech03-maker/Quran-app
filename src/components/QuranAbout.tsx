@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function QuranAbout() {
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 animate__animated animate__fadeInUp">
       <div className="row">
         <div className="col-12 col-sm-12 col-md-6 col-lg-6">
           <div className="row">
