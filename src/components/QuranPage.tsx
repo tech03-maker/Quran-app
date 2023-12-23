@@ -42,7 +42,7 @@ const QuranPage: React.FC = () => {
             {/* Use Link instead of a button for navigation */}
             <Link
               to={`/surah/${surah.number}`}
-              className="flex w-[350px] gap-3 justify-between rounded-md p-2 border border-gray-800"
+              className="surah_link flex w-[350px] gap-3 justify-between rounded-md p-2 border border-gray-800"
             >
               <div className="flex gap-3">
                 <div className="w-8 bg-gray-100 flex justify-center items-center rounded-lg  h-8">

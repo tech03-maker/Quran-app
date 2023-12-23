@@ -30,7 +30,7 @@ function Navbar() {
               <FontAwesomeIcon icon="bars" />
             </span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="collapse navbar-collapse d-md-block" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0"></ul>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0" role="search">
               <li className="nav-item ">
@@ -103,7 +103,7 @@ function Navbar() {
               </li>
             </ul>
             <a href="#">
-              <button className="donate" type="submit">
+              <button className="donate bg-white" type="submit">
                 Donate
               </button>
             </a>

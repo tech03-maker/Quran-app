@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import React, { Key, useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 
 interface Verse {
+  number: Key | null | undefined;
   // Define the structure of a verse
   verseNumber: number;
   text: string;
@@ -19,25 +20,36 @@ const QuranDetails: React.FC<SurahDetailsProps> = () => {
     // Fetch verses from the API based on the Surah ID
     const fetchVerses = async () => {
       try {
-        const response = await fetch(`https://api.quran.com/api/v4/surahs/${id}/verses`);
+        const response = await fetch(
+          `https://api.alquran.cloud/v1/quran/quran-uthmani`
+        );
         const data = await response.json();
-        setVerses(data.verses);
+
+        const surah = data.data.surahs.find(
+          (elem: { number: string | undefined }) => elem.number == id
+        );
+        setVerses(surah.ayahs);
       } catch (error) {
-        console.error('Error fetching verses:', error);
+        console.error("Error fetching verses:", error);
       }
     };
 
     fetchVerses();
   }, [id]);
 
+  console.log(verses);
+
   return (
-    <div>
+    <div className="container p-3">
       <h2>Surah {id} Details</h2>
       {/* Render the fetched verses here */}
-      <ul>
-        {verses.map((verse) => (
-          <li key={verse.verseNumber}>{verse.text}</li>
-        ))}
+      <ul className="mt-3">
+        {verses.length > 0 &&
+          verses.map((verse) => (
+            <li className="ayah_list mt-3 fw-bold p-4" key={verse.number}>
+              {verse.text}
+            </li>
+          ))}
       </ul>
     </div>
   );
