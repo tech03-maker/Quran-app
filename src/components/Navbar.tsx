@@ -1,22 +1,14 @@
 import "./NavbarStyle.css";
 import Quran from "../assets/IMG-20231130-WA0041.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import LanguageSelector from "./LanguageSelector";
+// import LanguageSelector from "./LanguageSelector";
 
 function Navbar() {
   return (
     <div>
       <div className="above">
         <div className="container text-white p-3 justify-center">
-          <div className="row">
-            {/* <span className="col-lg-6 col-md-6 col-sm-12">
-              <FontAwesomeIcon icon="phone" />
-              +234 000 000 0000
-            </span> */}
-            <span className="col-lg-12 col-md-12 col-sm-12">
-              <LanguageSelector />
-            </span>
-          </div>
+          
         </div>
       </div>
       <nav className="navbar navbar-expand-lg align-center">
