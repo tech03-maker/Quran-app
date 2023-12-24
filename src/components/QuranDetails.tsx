@@ -1,5 +1,6 @@
 import React, { Key, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import "./quranDetails.css";
 
 interface Verse {
   number: Key | null | undefined;
@@ -40,17 +41,19 @@ const QuranDetails: React.FC<SurahDetailsProps> = () => {
   console.log(verses);
 
   return (
-    <div className="container p-3">
-      <h2>Surah {id} Details</h2>
-      {/* Render the fetched verses here */}
-      <ul className="mt-3">
-        {verses.length > 0 &&
-          verses.map((verse) => (
-            <li className="ayah_list mt-3 fw-bold p-4" key={verse.number}>
-              {verse.text}
-            </li>
-          ))}
-      </ul>
+    <div className="body">
+      <div className="container p-3">
+        <h2 className="text-white">Surah {id} </h2>
+        {/* Render the fetched verses here */}
+        <ul className="mt-3">
+          {verses.length > 0 &&
+            verses.map((verse) => (
+              <li className="ayah_list mt-3 fw-bold p-4" key={verse.number}>
+                {verse.text}
+              </li>
+            ))}
+        </ul>
+      </div>
     </div>
   );
 };

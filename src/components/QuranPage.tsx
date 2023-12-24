@@ -45,7 +45,7 @@ const QuranPage: React.FC = () => {
               className="surah_link flex w-[350px] gap-3 justify-between rounded-md p-2 border border-gray-800"
             >
               <div className="flex gap-3">
-                <div className="w-8 bg-gray-100 flex justify-center items-center rounded-lg  h-8">
+                <div className="surah_number w-8 bg-gray-100 flex justify-center items-center rounded-lg  h-8">
                   {surah.number}
                 </div>
                 <div className="flex flex-col gap-1 items-start">
