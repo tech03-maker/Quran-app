@@ -2,33 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 * {
   font-family: "Poppins", sans-serif;
-  
 }
 
-a{
+a {
   text-decoration: none !important;
 }
 
-.surah_link{
+.surah_link {
   color: black;
 }
 
-.surah_link:hover{
-  background-color: #5c0118;
+.surah_link:hover {
+  background-color: rgb(3, 3, 31);
   color: white;
   font-weight: normal;
+  border-top: 3px solid rgb(3, 3, 31) !important;
   box-shadow: 0 9px 8px rgba(0, 0, 0, 0.1);
 }
 
-.surah_number{
+.surah_link:focus {
+  background-color: #5c0118;
+}
+
+.surah_number {
   color: black;
 }
 
-.ayah_list{
+.ayah_list {
   /* background-color: rgba(56, 5, 5, 0.651); */
   color: white;
   border-bottom: 1px solid white;
@@ -36,8 +38,8 @@ a{
   font-size: 1.5rem;
 }
 
-body{
-  width:100%;
+body {
+  width: 100%;
 }
 .navbar {
   padding: 1rem;
