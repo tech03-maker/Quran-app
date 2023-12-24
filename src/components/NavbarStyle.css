@@ -39,6 +39,7 @@
 
 .navbar-nav {
   font-weight: 500;
+  visibility: visible;
 }
 
 .donate {
@@ -47,6 +48,7 @@
   padding: 7px;
   color: #5c0118;
   border-radius: 10px;
+  visibility: visible;
 }
 
 .navbar button:hover {
