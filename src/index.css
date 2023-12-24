@@ -18,12 +18,12 @@ a {
   background-color: rgb(3, 3, 31);
   color: white;
   font-weight: normal;
-  border-top: 3px solid rgb(3, 3, 31) !important;
   box-shadow: 0 9px 8px rgba(0, 0, 0, 0.1);
 }
 
 .surah_link:focus {
   background-color: #5c0118;
+  color: white;
 }
 
 .surah_number {

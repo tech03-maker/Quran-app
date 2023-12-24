@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
             </h3>
             <p className="mt-3">
               <blockquote>
-                "Indeed, your Lord is Allah,who created the heavens and te earth
+                "Indeed, your Lord is Allah,who created the heavens and the earth
                 in six days and then established Himself above the Throne,
                 arranging the matter(of His creation). There is no intercessor
                 except after His permission.That is Allah, your Lord, so worship
