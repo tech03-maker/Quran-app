@@ -37,6 +37,10 @@
   font-weight: bold;
 }
 
+.nav-link:focus {
+  border-bottom: 1px solid white;
+}
+
 .navbar-nav {
   font-weight: 500;
   visibility: visible;
@@ -59,4 +63,18 @@
 a:hover {
   font-weight: bold;
   transition: 0.2s ease-in;
+}
+
+
+@media(max-width: 768px){
+  .nav-link:focus {
+    border-bottom: 1px solid white;
+    width: 10%;
+  }
+}
+@media(max-width: 991px){
+  .nav-link:focus {
+    border-bottom: 1px solid white;
+    width: 10%;
+  }
 }
