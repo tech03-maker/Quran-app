@@ -32,7 +32,7 @@ function QuranAbout() {
           </p>
           <form action="">
             <a href="#">
-              <button className="Quran_btn" type="submit">
+              <button className="Quran_btn bg-dark w-100 p-2 text-white" type="submit">
                 Login
               </button>
             </a>

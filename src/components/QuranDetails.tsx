@@ -64,7 +64,7 @@ const QuranDetails: React.FC<SurahDetailsProps> = () => {
         setVerses(combinedVerses);
         setLoading(false);
       } catch (error) {
-        console.error("Error fetching verses:", error.message);
+        // console.error("Error fetching verses:", error.message);
         setError("Failed to fetch verses. Please try again later.");
         setLoading(false);
       }
