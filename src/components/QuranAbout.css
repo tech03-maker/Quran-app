@@ -7,19 +7,22 @@
 h3 {
   font-weight: bold;
   /* border-right: 3px solid black; */
-  color: rgb(3, 3, 51);
+  color: black;
 }
 
-.Quran_btn {
+.quran-btn {
   padding: 10px;
-  background-color: rgb(3, 3, 51) !important;
+  background-color: rgb(3, 3, 51);
   color: white;
   width: 25%;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: all 0.3s;
 }
 
-.Quran_btn:hover {
-  box-shadow: 0 4px 6px rgba(5, 5, 31, 0.267);
+.quran-btn:hover {
+  /* box-shadow: 0 4px 6px rgba(5, 5, 31, 0.267); */
+  background: transparent;
+  border: 1px solid rgb(3, 3, 51);
+  color: rgb(3, 3, 51);
 }

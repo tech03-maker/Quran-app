@@ -16,7 +16,7 @@ const Cards: React.FC = () => {
         <div className="col-12 col-sm-12 col-md-6 col-lg-6">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-              <div className="card col-12 col-sm-12 mb-3">
+              <div className="card col-12 col-sm-12 mb-3 h-100">
                 <img src={QuranLantern} className="card-image-top" alt="" />
                 <div className="card-body">
                   <h5 className="card-title">The Quran</h5>
@@ -31,7 +31,7 @@ const Cards: React.FC = () => {
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-              <div className="card col-12 col-sm-12 col-md-">
+              <div className="card h-100 col-12 col-sm-12 col-md-">
                 <img src={Hadith} className="card-image-top" alt="" />
                 <div className="card-body">
                   <h5 className="card-title">Hadith</h5>
@@ -56,7 +56,7 @@ const Cards: React.FC = () => {
         <h3 className="source mt-5">Extras</h3>
         <div className="row">
           <div className="col-4 col-12 col-sm-12 col-md-4 mb-3">
-            <div className="card">
+            <div className="card h-100">
               <img src={Seerah} className="card-img-top" alt="" />
               <div className="card-body">
                 <h5 className="card-title">Seerah</h5>
@@ -71,7 +71,7 @@ const Cards: React.FC = () => {
             </div>
           </div>
           <div className="col-4 col-12 col-sm-12 col-md-4 mb-3">
-            <div className="card">
+            <div className="card h-100">
               <img src={Hisnul} className="card-img-top" alt="" />
               <div className="card-body">
                 <h5 className="card-title">Hisnul Muslim</h5>
@@ -86,7 +86,7 @@ const Cards: React.FC = () => {
             </div>
           </div>
           <div className="col-4 col-12 col-sm-12 col-md-4">
-            <div className="card">
+            <div className="card h-100">
               <img src={Arabic} className="card-img-top" alt="" />
               <div className="card-body">
                 <h5 className="card-title">Learn Arabic</h5>

@@ -1,6 +1,7 @@
 import QuranImg from "../assets/quranmuslim-holy-book-placed-steampunk_948265-5615.avif";
 import HandyQuran from "../assets/quranmuslim-holy-book-placed-steampunk_948265-5767.avif";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./QuranAbout.css";
 
 function QuranAbout() {
   return (
@@ -32,7 +33,7 @@ function QuranAbout() {
           </p>
           <form action="">
             <a href="#">
-              <button className="Quran_btn bg-dark w-100 p-2 text-white" type="submit">
+              <button className="quran-btn w-100 p-2" type="submit">
                 Login
               </button>
             </a>
