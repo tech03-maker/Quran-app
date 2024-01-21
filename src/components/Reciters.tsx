@@ -1,5 +1,5 @@
 // import React from 'react'
-import "./reciters.css";
+import "./Reciters.css";
 import reciterImage from "../assets/1000341846-removebg-preview.png";
 import reciterImage2 from "../assets/1000341847-removebg-preview.png";
 import reciterImage3 from "../assets/images (3).png";
