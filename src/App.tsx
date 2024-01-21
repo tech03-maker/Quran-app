@@ -1,7 +1,7 @@
 import "./components/ButtonComponent";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import Navbar from "./components/Navbar";
-import 'animate.css';
+import "animate.css";
 import "./components/firebase";
 import {
   faBars,
@@ -28,7 +28,7 @@ import Reciters from "./components/reciters";
 
 function App() {
   return (
-    <div >
+    <div>
       <Navbar />
 
       <Routes>
